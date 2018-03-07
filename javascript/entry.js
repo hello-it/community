@@ -1,3 +1,3 @@
 $(window).load(function() {
-    $(".greeting").fadeOut(888);
+    $(".greeting").fadeOut(1000);
 });
