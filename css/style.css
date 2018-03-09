@@ -12,7 +12,6 @@ body {
     width: 100%;
     height: 100%;
 
-    background-color: #e0eafb;
     color: #211f1f;
 
     direction: ltr;
@@ -23,23 +22,32 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
 }
 
+.header-color {
+    background-color: #6299ff;
+}
+
+.body-color {
+    background-color: #e0eafb;
+}
+
+.navigation-color:hover {
+    background-color: #e0eafb;
+}
+
 /* Header */
 .header {
 }
 
 .header-center-column {
     height: 10%;
-    background-color: #6299ff;
 }
 
 .header-side-column {
     height: 6%;
-    background-color: #6299ff;
 }
 
 /* Body */
 .body {
-    background-color: #e0eafb;
 }
 
 .body-side-column {
@@ -58,5 +66,13 @@ body {
 }
 
 .body-navigation {
-    padding: 5%;
+    padding: 2%;
+}
+
+.text {
+}
+
+.navigation {
+    float: right;
+    border-radius: 20px;
 }
