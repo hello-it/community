@@ -60,5 +60,9 @@ function updateText(page) {
 }
 
 function updateNavigation(page) {
-    $('.body-navigation div').attr("onclick", "navigate('" + pages[page] + "');");
+    if (pages.hasOwnProperty(page)) {
+        $('.body-navigation div').attr("onclick", "navigate('" + pages[page] + "');");
+    } else {
+        window.location.replace("https://t.me/joinchat/A8zYJFK9sIwLiqB1UTZ91w");
+    }
 }
