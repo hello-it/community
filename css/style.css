@@ -12,14 +12,12 @@ body {
     width: 100%;
     height: 100%;
 
-    color: #211f1f;
+    color: #252525;
 
     direction: ltr;
-    font-size: 15px;
+    font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-    line-height: 1.154;
     font-weight: 400;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .header-color {
@@ -62,7 +60,7 @@ body {
 }
 
 .body-text {
-    padding: 5%;
+    padding: 5% 5% 0 5%;
 }
 
 .body-navigation {
