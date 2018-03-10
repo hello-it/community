@@ -2,7 +2,7 @@ let colors = {
     "welcome": {"header": "#2196f3", "body": "#e3f2fd"},
     "skills": {"header": "#f44336", "body": "#ffebee"},
     "speaking": {"header": "#4caf50", "body": "#e8f5e9"},
-    "community": {"header": "#FFC107", "body": "#FFF8E1"}
+    "community": {"header": "#ffc107", "body": "#fff8e1"}
 };
 
 let texts = {
