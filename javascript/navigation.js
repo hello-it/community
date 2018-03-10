@@ -1,8 +1,8 @@
 let colors = {
-    "welcome": {"header": "#6299ff", "body": "#e0eafb"},
-    "skills": {"header": "#fb3668", "body": "#fbe0ea"},
-    "speaking": {"header": "#00c137", "body": "#c4ffdb"},
-    "community": {"header": "#b67bff", "body": "#f2e9fe"}
+    "welcome": {"header": "#2196F3", "body": "#E3F2FD"},
+    "skills": {"header": "#F44336", "body": "#FFEBEE"},
+    "speaking": {"header": "#4CAF50", "body": "#E8F5E9"},
+    "community": {"header": "#673AB7", "body": "#EDE7F6"}
 };
 
 let texts = {
