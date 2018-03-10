@@ -63,6 +63,6 @@ function updateNavigation(page) {
     if (pages.hasOwnProperty(page)) {
         $('.body-navigation div').attr("onclick", "navigate('" + pages[page] + "');");
     } else {
-        $('.body-navigation div').attr("onclick", "window.location.replace('https://t.me/joinchat/A8zYJFK9sIwLiqB1UTZ91w');");
+        $('.body-navigation div').attr("onclick", "window.location.replace('https://t.me/hello_it_community');");
     }
 }
